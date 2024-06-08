@@ -1,0 +1,55 @@
+/* slider.css */
+
+
+
+.slideshow-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Ensures the container covers the full screen */
+  overflow: hidden;
+  z-index: -1; /* Ensures the slideshow is behind other content */
+  background-position: center;
+}
+
+.mySlides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Smooth transition for opacity */
+}
+
+.mySlides.active {
+  opacity: 1;
+}
+
+.slideshow-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container without leaving spaces */
+  object-position: center; /* Centers the image vertically and horizontally */
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.wrapper-bg {
+  position: relative;
+  width: 100%;
+  height: 160%; /* Adjust as needed */
+  overflow: hidden;
+}

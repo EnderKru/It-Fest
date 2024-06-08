@@ -1,0 +1,37 @@
+.subbanner {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ensures the subbanner covers the full screen */
+    overflow: hidden;
+    margin-top: -20px;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video is behind other content */
+  }
+
+  .overlayy {
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(to bottom, #10183d, #10183d7d,#10183d25, #10183d88, #10183d);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .title-sub {
+    z-index: 10;
+    position: relative;
+  }
+  .container-subbaner {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+  }
