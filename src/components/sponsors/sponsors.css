@@ -53,12 +53,20 @@
     margin-left: 20px;
     margin-bottom: 70px;
 }
+.wrapper-organiz {
+    padding-bottom: 0;
+    margin-bottom: 180px !important;
+}
 
 @media (max-width: 1600px) {
     .wrapp-org {
         transform: scale(0.8);
         transform-origin: top center;
 
+    }
+    .wrapper-organiz {
+        padding-bottom: 0;
+        margin-bottom: -180px !important;
     }
 }
 
@@ -136,10 +144,7 @@
     }
 }
     
-.wrapper-organiz {
-    padding-bottom: 0;
-    margin-bottom: -180px;
-}
+
 
 @media (max-width: 420px) {
     .title-org {

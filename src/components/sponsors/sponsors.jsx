@@ -20,13 +20,14 @@ import imgorg17 from '../../assets/common/organiz-img17.svg'
 import imgorg18 from '../../assets/common/organiz-img18.svg'
 import imgorg20 from '../../assets/common/organiz-img20.svg'
 import imgorg21 from '../../assets/common/organiz-img21.svg'
+import bspon from '../../assets/common/sponsord-bg.svg'
 
 
 
 
 export default function Sponsors() {
   return (
-    <div className='wrapper-organiz'>
+    <div className='wrapper-organiz'  style={{backgroundImage: `url(${bspon})` }}>
 
 <div className="wrapp-org">
 

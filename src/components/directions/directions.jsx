@@ -1,6 +1,6 @@
 import './directions.css'
 import hack from '../../assets/hackaton.svg'
-import down from '../../assets/scroll-down.svg'
+import ext from '../../assets/to extend.svg'
 import mobi from '../../assets/mobi.svg'
 import csec from '../../assets/cybersec.svg'
 import des from '../../assets/design.svg'
@@ -38,7 +38,7 @@ export function Directions(){
                                             Подробнее
                                         </h1>
                                         <button className="">
-                                            <img src={down} alt="" className="" />
+                                            <img src={ext} alt="" className="" />
                                         </button>
                                         
                                     </div>
@@ -50,7 +50,7 @@ export function Directions(){
                                 <div className="more-info-two">
                                     <div className="more-info-content">
                                     <button className="">
-                                            <img src={down} alt="" className="" />
+                                            <img src={ext} alt="" className="" />
                                         </button>
                                         <h1>
                                             Подробнее
@@ -77,7 +77,7 @@ export function Directions(){
                             <div className="act-part">
                                 <div className="act-tittle-one" id='csec'>
                                     <h1>
-                                        КИБЕР БЕЗОПАСНОСТЬ
+                                        КИБЕР-БЕЗОПАСНОСТЬ
                                     </h1>
                                 </div>
                                 <div className="act-button-one">
@@ -93,7 +93,7 @@ export function Directions(){
                                             Подробнее
                                         </h1>
                                         <button className="">
-                                            <img src={down} alt="" className="" />
+                                            <img src={ext} alt="" className="" />
                                         </button>
                                         
                                     </div>
@@ -105,7 +105,7 @@ export function Directions(){
                                 <div className="more-info-two">
                                     <div className="more-info-content">
                                     <button className="">
-                                            <img src={down} alt="" className="" />
+                                            <img src={ext} alt="" className="" />
                                         </button>
                                         <h1>
                                             Подробнее
@@ -148,7 +148,7 @@ export function Directions(){
                                             Подробнее
                                         </h1>
                                         <button className="">
-                                            <img src={down} alt="" className="" />
+                                            <img src={ext} alt="" className="" />
                                         </button>
                                         
                                     </div>
@@ -160,7 +160,7 @@ export function Directions(){
                                 <div className="more-info-two">
                                     <div className="more-info-content">
                                     <button className="">
-                                            <img src={down} alt="" className="" />
+                                            <img src={ext} alt="" className="" />
                                         </button>
                                         <h1>
                                             Подробнее
@@ -203,7 +203,7 @@ export function Directions(){
                                             Подробнее
                                         </h1>
                                         <button className="">
-                                            <img src={down} alt="" className="" />
+                                            <img src={ext} alt="" className="" />
                                         </button>
                                         
                                     </div>
@@ -215,7 +215,7 @@ export function Directions(){
                                 <div className="more-info-two">
                                     <div className="more-info-content">
                                     <button className="">
-                                            <img src={down} alt="" className="" />
+                                            <img src={ext} alt="" className="" />
                                         </button>
                                         <h1>
                                             Подробнее
@@ -227,7 +227,7 @@ export function Directions(){
                             <div className="act-part">
                                 <div className="act-tittle-two" id="drons">
                                     <h1>
-                                        ГОНИКИ НА ДРОНАХ
+                                        ГОНКИ НА ДРОНАХ
                                     </h1>
                                 </div>
                                 <div className="act-button-two">
