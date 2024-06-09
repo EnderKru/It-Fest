@@ -56,7 +56,7 @@ export function Directions(){
                             </div>
                             <div className="info-part"  style={{ backgroundImage: `url(${hack})`}}>  
                                 <div className="more-info-one">
-                                    <div className="more-info-content">
+                                    <div className="more-info-content" >
                                         <h1>
                                             Подробнее
                                         </h1>
@@ -115,8 +115,8 @@ export function Directions(){
                             </div>
                             <div className="info-part"  style={{ backgroundImage: `url(${csec})`}}>  
                                 <div className="more-info-one">
-                                    <div className="more-info-content">
-                                        <h1>
+                                    <div className="more-info-content" onClick={handleToggle}>
+                                        <h1 >
                                             Подробнее
                                         </h1>
                                         <ToggleButton id="3" isActive={activeId === "3"} onClick={handleToggle} />

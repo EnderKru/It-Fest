@@ -6,7 +6,7 @@ import imgorg3 from '../../assets/common/organiz-img3.svg'
 import imgorg4 from '../../assets/common/organiz-img4.svg'
 import imgorg5 from '../../assets/common/organiz-img5.svg'
 import imgorg6 from '../../assets/common/organiz-img6.svg'
-import imgorg7 from '../../assets/common/organiz-img7.svg'
+import imgorg7 from '../../assets/common/img7.svg'
 import imgorg8 from '../../assets/common/organiz-img8.svg'
 import imgorg9 from '../../assets/common/organiz-img9.svg'
 import imgorg10 from '../../assets/common/organiz-img10.svg'
@@ -21,6 +21,12 @@ import imgorg18 from '../../assets/common/organiz-img18.svg'
 import imgorg20 from '../../assets/common/organiz-img20.svg'
 import imgorg21 from '../../assets/common/organiz-img21.svg'
 import bspon from '../../assets/common/sponsord-bg.svg'
+import imgorg01 from '../../assets/common/img1.svg'
+import imgorg02 from '../../assets/common/img2.svg'
+import imgorg03 from '../../assets/common/img3.svg'
+import imgorg04 from '../../assets/common/img4.svg'
+import imgorg05 from '../../assets/common/img5.svg'
+
 
 
 
@@ -53,22 +59,16 @@ export default function Sponsors() {
         </div>
         <div className="organization"id='organization'>
             <div className="title-org">
-            Официальный спонсор
+            Спонсоры
             </div>
             <div className="main-org" >
                 <img src={imgorg7} alt="" />
-
-            </div>
-        </div>
-        <div className="organization"id='organization'>
-            <div className="title-org">
-            Золотой спонсор
-            </div>
-            <div className="main-org" >
                 <img src={imgorg21} alt="" />
 
+
             </div>
         </div>
+       
         <div className="organization" >
             <div className="title-org">
             Партнеры
@@ -87,6 +87,12 @@ export default function Sponsors() {
                 <img src={imgorg17} alt=""  style={{marginBottom: '2rem'}}/>
                 <img src={imgorg18} alt=""  style={{marginBottom: '2rem'}}/>
 
+                <img src={imgorg01} alt=""  style={{marginBottom: '2rem'}}/>
+                <img src={imgorg02} alt=""  style={{marginBottom: '2rem'}}/>
+
+                <img src={imgorg03} alt=""  style={{marginBottom: '2rem'}}/>
+                <img src={imgorg04} alt=""  style={{marginBottom: '2rem'}}/>
+                <img src={imgorg05} alt=""  style={{marginBottom: '2rem'}}/>
 
             </div>
         </div>
