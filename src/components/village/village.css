@@ -1,0 +1,113 @@
+.village{
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    padding: 80px 0;
+}
+.village-tittle{
+    font-size: 36px;
+    font-weight: 600;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.village-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pockets{
+    display: flex;
+    justify-content: center;
+
+}
+.free-pocket, .eco-pocket, .vip-pocket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    margin: 0 10px;
+    justify-content: space-between;
+    width: 400px;
+    height: 650px;
+}
+.pockets h2{
+    font-size: 32px;
+    color: var(--main-color);
+    text-align: center;
+}
+.pockets h1{
+    font-size: 68px;
+    color: var(--orange-color);
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.pockets li{
+    font-size: 18px;
+    color: var(--main-color);
+    font-weight: 800;
+    text-decoration: none;
+    padding: 0 10px;
+    list-style-type: none;
+}
+.vip-pocket h1{
+   font-size: 60px; 
+   margin-bottom: 60px;
+}
+.vip-pocket h2{
+    margin-bottom: 20px;
+}
+.village-img{
+    width: fit-content;
+}
+.village-img img{
+    width: 100%;
+}
+
+@media (max-width:1300px) {
+    .free-pocket, .eco-pocket, .vip-pocket{
+        width: 300px;
+        height: 450px;
+    }
+    .village-tittle{
+        font-size: 32px;
+        font-weight: 600;
+        width: 60%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .vip-pocket h1{ 
+        margin-bottom: 20px;
+     }
+     .pockets h1{
+        font-size: 42px
+     }
+     .pockets h2{
+        font-size: 26px;
+    }
+    .pockets li{
+        font-size: 16px;
+    }
+
+}
+@media (max-width:1000px) {
+    .pockets{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .village-tittle{
+        margin-bottom: 60px;
+    }
+    .vip-pocket{
+        margin-bottom: 30px;
+    }
+}
+.main-value {
+    display: flex;
+    flex-direction: row;
+}
