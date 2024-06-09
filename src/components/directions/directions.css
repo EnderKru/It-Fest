@@ -1,0 +1,244 @@
+.directions{
+    padding: 80px 0;
+}
+.dir-tittle{
+    color: var(--main-color);
+    font-size: 68px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.dir-info{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.act-part{
+    width: 550px;
+    height: 250px;
+    background-color: var(--main-color);
+    border-radius: 16px;
+    padding: 33px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info-part{
+    width: 550px;
+    height: 250px;
+    z-index: 5;
+    border-radius: 16px;
+}
+.act-part h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+.act-button-one{
+    display: flex;
+    justify-content: end;
+}
+.act-part  button
+{
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 24px;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--white-color);
+    background-color: var(--orange-color);
+    border: none;
+    transition: filter 0.3s ease;
+}
+.act-part button:hover{
+    filter: brightness(85%);
+}
+.more-info-content{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.more-info-one{
+    width: 100%;
+    background-color: var(--main-color);
+    padding: 10px 10px;
+    border-radius: 40px 0 16px 16px;
+}
+.more-info-two{
+    width: 100%;
+    background-color: var(--main-color);
+    padding: 10px 10px;
+    border-radius: 0px 40px 16px 16px;
+}
+.more-info-two > div{
+    display: flex;
+    justify-content: start;
+}
+.info-part{
+    display: flex;
+    align-items: end;
+    background-position: center;
+}
+.more-info-content h1{
+    font-size: 24px;
+    font-weight: 400;
+}
+.more-info-content img{
+    margin: 0 10px;
+}
+.act-tittle-two{
+    display: flex;
+    justify-content: end;
+}
+#mobi > h1{
+    font-size: 48px;
+}
+.more-info-content button{
+
+    background: none;       
+    border: none;           
+    padding: 0;             
+    margin: 0;              
+    font: inherit;          
+    color: inherit;         
+    cursor: pointer;        
+    outline: none;         
+    appearance: none; 
+}
+#drons{
+    text-align: end;
+}
+#drons > h1, #des > h1, #robots > h1, #csec > h1{
+    font-size: 46px;
+}
+
+@media (min-width:1500px) {
+    .dir-info{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:1225px) {
+    .act-part{
+        width: 450px;
+    }
+    .act-part h1{
+        font-size: 36px;
+    }
+    .act-part button{
+        font-size: 24px;
+        padding: 12px 24px;
+    }
+    .info-part{
+        width: 450px;
+    }
+    #mobi > h1{
+        font-size: 36px;
+    }
+    #drons > h1, #des > h1, #robots > h1, #csec > h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1024px) {
+    .act-part{
+        width: 320px;
+        height: 200px;
+        padding: 15px 23px;
+    }
+    .info-part{
+        width: 320px;
+        height: 200px;
+    }
+    #mobi > h1{
+        font-size: 28px;
+    }
+    #drons > h1, #des > h1, #robots > h1, #csec > h1{
+        font-size: 28px;
+    }
+}
+@media (max-width:768px) {
+    /* .dir-info{
+        flex-wrap: wrap;
+    } */
+    .dir-tittle{
+        font-size: 42px;
+    }
+    
+    .act-part{
+        width: 250px;
+        height: 200px;
+        padding: 15px 15px;
+    }
+    .act-part button{
+        font-size: 16px;
+    }
+    .more-info-content h1{
+        font-size: 16px;
+    }
+    .more-info-content img{
+        width: 25px;
+    }
+    .act-part h1{
+        font-size: 28px;
+    }
+    .info-part{
+        width: 250px;
+        height: 200px;
+    }
+    #mobi > h1{
+        font-size: 22px;
+    }
+    #drons > h1, #des > h1, #robots > h1, #csec > h1{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:628px) {
+    .dir-info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dir-tittle{
+        font-size: 40px;
+    }
+    .act-part{
+        width: 400px;
+        height: 150px;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+    .info-part{
+        margin-bottom: 10px;
+    }
+    .act-part button{
+        font-size: 16px;
+        width: 100%;
+    }
+    .more-info-content h1{
+        font-size: 16px;
+    }
+    .more-info-content img{
+        width: 25px;
+    }
+    .act-tittle-one, .act-tittle-two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .act-part h1{
+        font-size: 32px;
+        /* text-align: center; */
+    }
+    #mobi > h1{
+        font-size: 28px;
+    }
+    .info-part{
+        width: 400px;
+        height: 150px;
+    }    #drons > h1, #des > h1, #robots > h1, #csec > h1{
+        font-size: 28px;
+        text-align: center;
+    }
+}
