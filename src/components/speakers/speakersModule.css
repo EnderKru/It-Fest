@@ -197,6 +197,9 @@ margin-left: 420px;
     .speaker-card h3 {
         font-size: 1rem !important;
     }
+    .small-title-speakers {
+        margin-top: 10rem !important;
+    }
     .speaker-card p {
 font-size: 0.8rem !important;
 margin-top: 1rem;
@@ -216,6 +219,10 @@ margin-top: 1rem;
 .text-center div {
     font-size: 1.5rem !important;
 }
+.small-title-speakers {
+    margin-top: 16rem !important;
+}
+
 }
 
 @media (max-width: 423px) {

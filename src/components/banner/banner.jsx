@@ -9,7 +9,7 @@ export default function Banner() {
       <div className='banner' >
         <div className="overlay"></div>
         <div>
-     <div className="title-banner">
+     <div className="title-banner" >
      ПРИ ПОДДЕРЖКЕ 
      
 ГОСУДАРСТВЕННОГО УЧРЕЖДЕНИЯ

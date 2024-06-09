@@ -8,6 +8,8 @@ import Sections from '../../components/sections/sections'
 import Map from '../../components/map/map'
 import Slider from '../../components/slider-banner/slider'
 import Subbaner from '../../components/subbanner/subbaner'
+import Timer from '../../components/timer/timer'
+import Sponsors from '../../components/sponsors/sponsors'
 
 
 
@@ -19,9 +21,11 @@ export function MainPage(){
             <Slider/>
         <Banner/>
         <Subbaner/>
-        <Corusel/>
-        <Speakers/>
+        <Timer/>
+        
         <Sections/>
+        <Speakers/>
+        <Sponsors/>
         <Map/>
 
         </div>
