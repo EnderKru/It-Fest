@@ -31,6 +31,10 @@
     font-weight: 600;
     margin-bottom: 5px;
 }
+.numbers p:hover{
+    text-decoration: underline;
+    cursor: copy;
+}
 
 .media-icons{
     margin-top: 20px;
@@ -43,6 +47,22 @@
 }
 .media-icons a img{
     width: 50px;
+}
+
+.copy-message {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: var(--orange-color);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    display: flex;
+    align-items:center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 12px;
 }
 
 @media (max-width: 1050px){
