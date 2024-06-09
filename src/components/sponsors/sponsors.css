@@ -133,3 +133,8 @@
         margin-top: 10px;
     }
 }
+    
+.wrapper-organiz {
+    padding-bottom: 0;
+    margin-bottom: -120px;
+}

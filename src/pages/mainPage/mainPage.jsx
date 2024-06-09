@@ -29,7 +29,7 @@ export function MainPage(){
         <Directions/>
                 <Speakers/>
         <Sponsors/>
-        <Map/>
+        {/* <Map/> */}
 
         </div>
         <Footer/>

@@ -31,7 +31,7 @@ export default function Sponsors() {
                 <img src={imgorg1} alt="" className='img-balai'/>
                 {/* </a> */}
                 {/* <a href="https://alatoo.edu.kg/"> */}
-                <img src={imgorg2} alt="" className='img-balai'/>
+                {/* <img src={imgorg2} alt="" className='img-balai'/> */}
                 {/* </a> */}
                 {/* <a href="https://baytur-resort.kg/projivanie/"> */}
                 <img src={imgorg3} alt="" className='img-balai'/>
@@ -66,7 +66,7 @@ export default function Sponsors() {
             <div className="title-org">
             Партнеры
             </div>
-            <div className="main-org">
+            <div className="main-org" style={{marginBottom: '0'}}>
             <img src={imgorg8} alt="" />
                 <img src={imgorg9} alt="" />
                 <img src={imgorg10} alt="" />
