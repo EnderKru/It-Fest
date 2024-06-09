@@ -78,6 +78,40 @@
     padding: 10px 10px;
     border-radius: 40px 0 16px 16px;
 }
+.toggle-button {
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+.toggle-button img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}   
+.toggle-button.active img {
+    transform: rotate(180deg);
+}
+.slide-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+    background-color: var(--orange-color);
+    padding: 10 20px;
+    border-radius: 5px;
+    position: absolute;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.slide-text.visible {
+    max-height: 100px; /* Достаточно большой, чтобы вместить весь текст */
+    padding: 5px 20px;
+}
+.slide-text p{
+    font-size: 14px;
+}
 .more-info-two{
     width: 100%;
     background-color: var(--orange-color);
@@ -158,6 +192,9 @@
         height: 200px;
         padding: 15px 23px;
     }
+    .slide-text p{
+        font-size: 10px;
+    }
     .info-part{
         width: 320px;
         height: 200px;
@@ -176,7 +213,9 @@
     .dir-tittle{
         font-size: 42px;
     }
-    
+    .slide-text p{
+        font-size: 10px;
+    }
     .act-part{
         width: 250px;
         height: 200px;
@@ -210,6 +249,9 @@
     .dir-info{
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .slide-text p{
+        font-size: 8px;
     }
     .dir-tittle{
         font-size: 40px;
