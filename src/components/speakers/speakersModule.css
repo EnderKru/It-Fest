@@ -22,8 +22,10 @@
 .speakers {
     text-align: center;
     color: white;
+    background-position:center;
+    background-size: cover;
     padding: 0 20px 20px 20px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     max-width: 1950px; /* Ensure the content doesn't stretch too wide */
     margin: 0 auto; /* Center align */
 }
@@ -135,7 +137,10 @@ margin-left: 420px;
   @media (max-width: 450px) {
     
     .speakers {
-        margin-top: -180px;
+        /* margin-top: -180px; */
+    }
+    .small-title-speakers {
+        margin-top: 40px !important;
     }
   }
 .text-center  {
@@ -220,7 +225,8 @@ margin-top: 1rem;
     font-size: 1.5rem !important;
 }
 .small-title-speakers {
-    margin-top: 16rem !important;
+    /* margin-top: 16rem !important; */
+    margin-top: 4rem !important;
 }
 
 }

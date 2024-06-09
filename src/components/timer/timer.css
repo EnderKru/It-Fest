@@ -10,6 +10,14 @@
     margin: 0 auto;
     margin-bottom: 7rem;
   }
+
+  .subcontent {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #E57D1E;
+    font-weight: 800;
+    margin-bottom: 1.6rem;
+  }
   
   .content-nt {
     /* width: 90%; */
@@ -103,6 +111,9 @@
     .main-containerT {
       transform: scale(0.8);
       background-size: cover;
+    }
+    .subcontent {
+        font-size: 1rem;
     }
   }
   
@@ -213,8 +224,15 @@ text-align: center;    }
     .sapn-tt {
         font-size: 1.2rem;
     }
+    .subcontent {
+        font-size: 0.7rem;
+    }
     .content-nt {
         font-size: 1.8rem;
+    }
+    .subcontent {
+margin-top: -10px;
+margin-bottom: 10px;
     }
     .doub,
     #days,
@@ -231,6 +249,7 @@ text-align: center;    }
  
     .sapn-tt {
         font-size: 1rem;
+        margin-left: 10px;
     }
     .content-nt {
         font-size: 1.8rem;

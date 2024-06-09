@@ -27,7 +27,7 @@ export function MainPage(){
         <Timer/>
         
         <Directions/>
-                <Speakers/>
+                {/* <Speakers/> */}
         <Sponsors/>
         {/* <Map/> */}
 

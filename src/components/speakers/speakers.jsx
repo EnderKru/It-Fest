@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './speakersModule.css'; // Ensure to import the CSS file
+import bg from '../../assets/common/speakers-bg.svg'
 
 const Speakers = () => {
     const [data, setData] = useState([]);
@@ -31,7 +32,7 @@ const Speakers = () => {
     }
 
     return (
-        <div className='speakers' id = 'speakers'>
+        <div className='speakers' id = 'speakers' style={{ backgroundImage: `url(${bg})` }} >
             <div className="container">
                 <h1 className="text-center" id="festival-sections">
                     <div className='small-title-speakers'>

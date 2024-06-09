@@ -11,6 +11,16 @@ import imgorg8 from '../../assets/common/organiz-img8.svg'
 import imgorg9 from '../../assets/common/organiz-img9.svg'
 import imgorg10 from '../../assets/common/organiz-img10.svg'
 import imgorg11 from '../../assets/common/organiz-img11.svg'
+import imgorg12 from '../../assets/common/organiz-img12.svg'
+import imgorg13 from '../../assets/common/organiz-img13.svg'
+import imgorg14 from '../../assets/common/organiz-img14.svg'
+import imgorg15 from '../../assets/common/organiz-img15.svg'
+import imgorg16 from '../../assets/common/organiz-img16.svg'
+import imgorg17 from '../../assets/common/organiz-img17.svg'
+import imgorg18 from '../../assets/common/organiz-img18.svg'
+import imgorg20 from '../../assets/common/organiz-img20.svg'
+import imgorg21 from '../../assets/common/organiz-img21.svg'
+
 
 
 
@@ -27,50 +37,55 @@ export default function Sponsors() {
             Организаторы
             </div>
             <div className="main-org">
-                {/* <a href="https://kenesh.kg/ru"> */}
                 <img src={imgorg1} alt="" className='img-balai'/>
-                {/* </a> */}
-                {/* <a href="https://alatoo.edu.kg/"> */}
-                {/* <img src={imgorg2} alt="" className='img-balai'/> */}
-                {/* </a> */}
-                {/* <a href="https://baytur-resort.kg/projivanie/"> */}
                 <img src={imgorg3} alt="" className='img-balai'/>
-                {/* </a> */}
 
             </div>
         </div>
         <div className="organization">
             <div className="title-org">
-            Главный спонсор
+            Генеральный спонсор
             </div>
             <div className="main-org1">
-                {/* <a href="https://bakai.kg/en/"> */}
                 <img src={imgorg4} alt="" className='img-balai' />
-                {/* </a> */}
             </div>
         </div>
         <div className="organization"id='organization'>
             <div className="title-org">
-            Cпонсоры
+            Официальный спонсор
             </div>
             <div className="main-org" >
-                {/* <a href="https://www.kia-bishkek.kg/"> */}
-                <img src={imgorg5} alt="" />
-                <img src={imgorg6} alt="" />
                 <img src={imgorg7} alt="" />
 
-                {/* </a> */}
+            </div>
+        </div>
+        <div className="organization"id='organization'>
+            <div className="title-org">
+            Золотой спонсор
+            </div>
+            <div className="main-org" >
+                <img src={imgorg21} alt="" />
+
             </div>
         </div>
         <div className="organization" >
             <div className="title-org">
             Партнеры
             </div>
-            <div className="main-org" style={{marginBottom: '0'}}>
-            <img src={imgorg8} alt="" />
-                <img src={imgorg9} alt="" />
-                <img src={imgorg10} alt="" />
-                <img src={imgorg11} alt="" />
+            <div className="main-org" style={{marginBottom: '0'}} id='main-org'>
+            <img src={imgorg8} style={{marginBottom: '2rem'}}alt="" />
+                <img src={imgorg9} alt="" style={{marginBottom: '2rem'}}/>
+                <img src={imgorg10} alt="" style={{marginBottom: '2rem'}} />
+                <img src={imgorg15} alt=""  style={{marginBottom: '2rem'}}/>
+                <img src={imgorg12} alt=""  style={{marginBottom: '2rem'}}/>
+                {/* <img src={imgorg13} alt="" /> */}
+                <img src={imgorg14} alt=""  style={{marginBottom: '2rem'}}/>
+                <img src={imgorg20} alt=""  style={{marginBottom: '2rem'}}/>
+
+                <img src={imgorg16} alt=""  style={{marginBottom: '2rem'}}/>
+                <img src={imgorg17} alt=""  style={{marginBottom: '2rem'}}/>
+                <img src={imgorg18} alt=""  style={{marginBottom: '2rem'}}/>
+
 
             </div>
         </div>

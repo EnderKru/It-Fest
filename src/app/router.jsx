@@ -1,5 +1,5 @@
 import { MainPage } from "../pages/mainPage/mainPage";
-import { Auth } from "../pages/auth/auth";
+import  RegisterPage  from "../pages/auth/auth";
 import { NoPage } from "../pages/noPage/noPage";
 import { createBrowserRouter } from "react-router-dom";
 
@@ -10,7 +10,7 @@ export const routers = createBrowserRouter([
     },
     {
         path: '/signup',
-        element: <Auth/>
+        element: <RegisterPage/>
     },
  {
         path: '/*',

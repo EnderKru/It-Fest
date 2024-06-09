@@ -31,6 +31,11 @@ export default function Timer() {
       <div class="content-nt">
         ДО НАЧАЛА СОРЕВНОВАНИЯ
       </div>
+      <div className="subcontent">
+      16-17 АВГУСТА
+      <br/>
+КУЛЬТУРНЫЙ ЦЕНТР “РУХ ОРДО”
+      </div>
       <section class="timer-n">
         {/* <div class="countdown-n"> */}
         <div className="timersEdin">
