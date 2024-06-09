@@ -77,7 +77,7 @@ export default function Header() {
                         </li> */}
                         
                         <li className="header-item">
-                            <div className="header-link" onClick={() => scrollToElement(document.getElementById('sections1'), 1000)} style={{paddingTop: '0', cursor: 'pointer'}}>СЕКЦИИ</div>
+                            <div className="header-link" onClick={() => scrollToElement(document.getElementById('section1'), 1000)} style={{paddingTop: '0', cursor: 'pointer'}}>СЕКЦИИ</div>
                         </li>
                         <li className="header-item">
                             <div  className="header-link"onClick={() => scrollToElement(document.getElementById('speakers'), 1000)} style={{cursor: 'pointer'}}>ГОСТИ</div>

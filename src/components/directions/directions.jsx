@@ -11,7 +11,7 @@ import exh from '../../assets/it exh.svg'
 
 export function Directions(){
     return(
-        <div className="directions">
+        <div className="directions" id='section1'>
             <div className="conteiner">
                 <div className="dir-content">
                     <div className="dir-tittle">
