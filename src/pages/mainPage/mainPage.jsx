@@ -10,6 +10,9 @@ import Slider from '../../components/slider-banner/slider'
 import Subbaner from '../../components/subbanner/subbaner'
 import Timer from '../../components/timer/timer'
 import Sponsors from '../../components/sponsors/sponsors'
+import { Directions } from "../../components/directions/directions";
+
+
 
 
 
@@ -23,8 +26,8 @@ export function MainPage(){
         <Subbaner/>
         <Timer/>
         
-        <Sections/>
-        <Speakers/>
+        <Directions/>
+                <Speakers/>
         <Sponsors/>
         <Map/>
 

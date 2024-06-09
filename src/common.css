@@ -4,13 +4,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --white-color: #E7E5DE;
+    --main-color: #10183D;
+    --orange-color: #E57D1E;
+}
 
 body{
     font-family: "Montserrat", sans-serif;
     color: #ffff;
     background-color: #10183D;
 }
-
+button:active {
+    transform: scale(0.95);
+    cursor: pointer;
+  }
+  
+  button {
+    cursor: pointer;
+  }
 .conteiner{
     padding: 0 60px;
 }
