@@ -35,11 +35,11 @@ export default function Footer(){
                             <div className='nums'>
                             <div>
                                 <p onClick={handleCopyPhoneNumber}>+996 559 880 208</p>
-                                <p onClick={handleCopyPhoneNumber}>+996 559 880 208</p>
+                                <p onClick={handleCopyPhoneNumber}>+996 708 234 543</p>
                             </div>
                             <div>
-                                <p onClick={handleCopyPhoneNumber}>+996 559 880 208</p>
-                                <p onClick={handleCopyPhoneNumber}>+996 559 880 208</p>
+                                <p onClick={handleCopyPhoneNumber}>+996 509 545 708</p>
+                                <p onClick={handleCopyPhoneNumber}>+996 704 704 716</p>
                             </div>
                             </div>
                             {isCopied && 

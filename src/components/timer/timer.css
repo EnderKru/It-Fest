@@ -14,7 +14,7 @@
   .subcontent {
     text-align: center;
     font-size: 1.5rem;
-    color: #E57D1E;
+    color: #3A77C3;
     font-weight: 800;
     margin-bottom: 1.6rem;
   }
@@ -64,14 +64,14 @@
     font-size: 6rem;
     font-weight: 800;
     margin-left: 20px;
-    color: #E57D1E;
+    color: #3A77C3;
   }
   .sapn-tt {
     font-size: 40px;
     font-weight: 800;
     margin-left: -20px;
     margin-top: -10px;
-    color: #3A77C3;
+    color: #E57D1E;
   }
   #days,
   #hours {

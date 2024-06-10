@@ -256,6 +256,9 @@
     .dir-tittle{
         font-size: 40px;
     }
+    .directions {
+        padding-top: 0;
+    }
     .act-part{
         width: 400px;
         height: 150px;

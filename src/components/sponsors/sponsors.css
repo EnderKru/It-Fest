@@ -168,3 +168,9 @@
     padding-bottom: 0;
     margin-bottom: -180px;
 }
+
+@media (max-width:556px) {
+    .wrapper-organiz {
+        margin-bottom: -430px !important;
+    }
+}
