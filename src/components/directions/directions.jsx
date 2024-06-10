@@ -37,7 +37,7 @@ export function Directions(){
         <div className="directions">
             <div className="conteiner">
                 <div className="dir-content">
-                    <div className="dir-tittle">
+                    <div className="dir-tittle" >
                         Напревления фестиваля
                     </div>
                     <div className="choices">
@@ -70,7 +70,7 @@ export function Directions(){
                                 </div>
                             </div>
                         </div>
-                        <div className="dir-info">
+                        <div className="dir-info" id='two'>
                             <div className="info-part"  style={{ backgroundImage: `url(${mobi})`}}>  
                                 <div className="more-info-two">
                                     <div className="more-info-content">
@@ -129,7 +129,7 @@ export function Directions(){
                                 </div>
                             </div>
                         </div>
-                        <div className="dir-info">
+                        <div className="dir-info" id='two'>
                             <div className="info-part"  style={{ backgroundImage: `url(${cs})`}}>  
                                 <div className="more-info-two">
                                     <div className="more-info-content">
@@ -186,7 +186,7 @@ export function Directions(){
                                 </div>
                             </div>
                         </div>
-                        <div className="dir-info">
+                        <div className="dir-info" id='two'>
                             <div className="info-part"  style={{ backgroundImage: `url(${exh})`}}>  
                                 <div className="more-info-two">
                                     <div className="more-info-content">
@@ -243,7 +243,7 @@ export function Directions(){
                                 </div>
                             </div>
                         </div>
-                        <div className="dir-info">
+                        <div className="dir-info" id='two'>
                             <div className="info-part"  style={{ backgroundImage: `url(${drons})`}}>  
                                 <div className="more-info-two">
                                     <div className="more-info-content">
