@@ -42,8 +42,8 @@
   align-items: center;
   text-align: center;
   color: white;
-  border-top: 5px solid #e57d1e; /* Граница сверху */
-  border-bottom: 5px solid #e57d1e;
+  border-top: 5px solid #f2f1ea; /* Граница сверху */
+  border-bottom: 5px solid #f2f1ea;
   width: 80%;
 }
 .timersEdin {
@@ -71,7 +71,7 @@
   font-weight: 800;
   margin-left: -20px;
   margin-top: -10px;
-  color: #46fbda;
+  color: #5c99e5;
 }
 #days,
 #hours {

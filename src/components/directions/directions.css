@@ -61,7 +61,7 @@
   border-radius: 8px;
   font-size: 28px;
   font-weight: 600;
-  color: var(--main-color);
+  color: var(--white-color);
   background-color: var(--btn-color);
   border: none;
   transition: filter 0.3s ease;
@@ -76,7 +76,7 @@
 }
 .more-info-one {
   width: 100%;
-  background-color: var(--aqua-color);
+  background-color: #5c99e5;
   padding: 10px 10px;
   border-radius: 40px 0 16px 16px;
 }
@@ -116,7 +116,7 @@
 }
 .more-info-two {
   width: 100%;
-  background-color: var(--aqua-color);
+  background-color: #5c99e5;
   padding: 10px 10px;
   border-radius: 0px 40px 16px 16px;
 }
@@ -143,10 +143,6 @@
 #mobi > h1 {
   font-size: 44px;
   font-weight: 800;
-}
-.more-info-content,
-.slide-text {
-  color: #10183d !important;
 }
 .more-info-content button {
   background: none;

@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import './authModule.css';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import left from '../../assets/common/arrowtail 4.svg'
 import icon1 from '../../assets/common/icon1.svg'
 import icon2 from '../../assets/common/icon2.svg'
 import icon3 from '../../assets/common/icon3.svg'
+import bgimg from '../../assets/common/register-bg.svg'
 
 
-const RegisterPage = () => {
+const ParticPage = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -65,7 +66,7 @@ const RegisterPage = () => {
     
       <header className="header2">
       <div className="header-over1"> 
-        <button className="header-wrapper" onClick={handleRedirect} style={{ display: 'flex', alignItems: 'center' }}>
+        <button className="header-wrapper-reg" onClick={handleRedirect} style={{ display: 'flex', alignItems: 'center' }}>
           <img src={left} alt="arrow back" style={{ width: '25px' }} />
           На главную
         </button>
@@ -90,11 +91,15 @@ const RegisterPage = () => {
       </header>
       {/* </div>
       </div> */}
-      <div className="registration-container">
+      <div className="registration-container"  style={{ backgroundImage: `url(${bgimg})`, height: '100%'}}>
         <div className="overlayyy"></div>
+        <div className='wrap-box-reg'>
+          <div className='container-box-reg'>
         <h1 className='btn-title-reg' style={{ alignItems: 'center', justifyContent: 'center', color: 'white', zIndex: '1', marginBottom: '0px' }}>РЕГИСТРАЦИЯ</h1>
         <h2 className='btn-title-reg2' style={{ alignItems: 'center', justifyContent: 'center', color: 'white', zIndex: '1', marginBottom: '10px' }}>Заполнение общей информации</h2>
         <div className="cercles-reg">
+        <div className="second-reg"></div>
+
           <div className="first-reg"></div>
           <div className="second-reg"></div>
         </div>
@@ -107,46 +112,46 @@ const RegisterPage = () => {
                   type="text"
                   name="name"
                   placeholder="Введите текст"
-                  value={formData.name}
+                  // value={formData.name}
                   onChange={handleChange}
                 />
-                {errors.name && <span className="error">{errors.name}</span>}
+                {errors.email && <span className="error">заполните обязательное поле</span>}
               </div>
               <div className="form-group">
               <div>Возраст</div>
 
                 <input
-                  type="email"
+                  type="text"
                   name="email"
                   placeholder="Введите электронную почту"
-                  value={formData.email}
+                  // value={formData.email}
                   onChange={handleChange}
                 />
-                {errors.email && <span className="error">{errors.email}</span>}
+                {errors.email && <span className="error">заполните обязательное поле</span>}
               </div>
               <div className="form-group">
               <div>Номер телефона</div>
 
                 <input
-                  type="email"
+                  type="text"
                   name="email"
                   placeholder="Введите электронную почту"
-                  value={formData.email}
+                  // value={formData.email}
                   onChange={handleChange}
                 />
-                {errors.email && <span className="error">{errors.email}</span>}
+                {errors.email && <span className="error">заполните обязательное поле</span>}
               </div>
               <div className="form-group">
               <div>Профессия</div>
 
                 <input
-                  type="email"
+                  type="text"
                   name="email"
                   placeholder="Введите электронную почту"
-                  value={formData.email}
+                  // value={formData.email}
                   onChange={handleChange}
                 />
-                {errors.email && <span className="error">{errors.email}</span>}
+                {errors.email && <span className="error">заполните обязательное поле</span>}
               </div>
             </div>
             <div className="right-reg">
@@ -154,13 +159,13 @@ const RegisterPage = () => {
               <div>Фамилия</div>
 
                 <input
-                  type="email"
+                  type="text"
                   name="email"
                   placeholder="Введите электронную почту"
-                  value={formData.email}
+                  // value={formData.email}
                   onChange={handleChange}
                 />
-                {errors.email && <span className="error">{errors.email}</span>}
+                {errors.email && <span className="error">заполните обязательное поле</span>}
               </div>
               <div className="form-group">
               <div>Электроная почта</div>
@@ -169,10 +174,10 @@ const RegisterPage = () => {
                   type="email"
                   name="email"
                   placeholder="Введите электронную почту"
-                  value={formData.email}
+                  // value={formData.email}
                   onChange={handleChange}
                 />
-                {errors.email && <span className="error">{errors.email}</span>}
+                {errors.email && <span className="error">заполните обязательное поле</span>}
               </div>
               <div className="form-group">
               <div>Секция</div>
@@ -192,12 +197,16 @@ const RegisterPage = () => {
             </div>
           </div>
           <div className="subm-reg">
+            {/* <NavLink to='/validation'> */}
           <button type="submit" className="submit-button">Следующий этап</button>
+          {/* </NavLink> */}
           </div>
         </form>
+      </div>
+      </div>
       </div>
     </>
   );
 };
 
-export default RegisterPage;
+export default ParticPage;

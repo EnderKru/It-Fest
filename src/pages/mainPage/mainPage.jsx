@@ -11,10 +11,7 @@ import Subbaner from "../../components/subbanner/subbaner";
 import Timer from "../../components/timer/timer";
 import Sponsors from "../../components/sponsors/sponsors";
 import { Directions } from "../../components/directions/directions";
-import Bonus from "../../components/bonus/bonus";
-import { Directions } from "../../components/directions/directions";
-import { Footer } from "../../components/footer/footer";
-import Village from "../../components/village/village";
+import Prices from "../../components/prices/prices";
 
 export function MainPage() {
   return (
@@ -28,6 +25,7 @@ export function MainPage() {
 
         <Directions />
         {/* <Speakers/> */}
+        <Prices />
         <Sponsors />
         {/* <Map/> */}
       </div>

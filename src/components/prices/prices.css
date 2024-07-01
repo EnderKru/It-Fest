@@ -1,0 +1,222 @@
+.pricesBlock_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 70%;
+}
+.pricesBlock_1,
+.pricesBlock_2 {
+  display: flex;
+  flex-direction: column;
+}
+.pricesCard1,
+.pricesCard2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 12px;
+}
+.pricesCard1 > h3,
+.pricesCard2 > h3 {
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+.pricesCard1 {
+  background: linear-gradient(#bcc1c2, #858584);
+}
+.pricesCard2 {
+  background: linear-gradient(#ffbf00, #a67c00);
+}
+.pricesCardInfo {
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  background-color: #46fbda95;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #f2f1ea;
+}
+.pricesCardInfo > h3 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+/*  */
+.pricesBSG {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 100%;
+}
+.pricesBSG_cards {
+  background: linear-gradient(#272727, #000000);
+  border-radius: 15px;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 1rem;
+  font-size: 1.6rem;
+}
+.pricesBronze,
+.pricesSilver,
+.pricesGold {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem 4rem;
+  background-color: #46fbda95;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6vmax;
+  color: #f2f1ea;
+  height: 65vw;
+}
+.pricesBronze > h3,
+.pricesSilver > h3,
+.pricesGold > h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+@media screen and (max-width: 1440px) {
+  .pricesBlock_main {
+    justify-content: space-between;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1330px) {
+  .pricesBlock_main {
+    justify-content: space-between;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1265px) {
+  .pricesBronze,
+  .pricesSilver,
+  .pricesGold {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem 4rem;
+    font-size: 1.6vmax;
+    height: auto;
+  }
+  .pricesBSG {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 4rem auto;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pricesBlock_main {
+    justify-content: space-between;
+  }
+  .pricesCardInfo {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1065px) {
+  .pricesCardInfo {
+    font-size: 1rem;
+  }
+  .pricesCardInfo > h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .pricesBSG {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 4rem auto;
+    width: 60%;
+  }
+  .pricesBSG_cards {
+    margin-top: 0;
+  }
+  .pricesBronze,
+  .pricesSilver,
+  .pricesGold {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .pricesBlock_main {
+    flex-direction: column;
+    width: 60%;
+  }
+  .pricesCardInfo {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+  }
+  .pricesCardInfo > h3 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pricesBSG {
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+  }
+  .pricesBlock_main {
+    flex-direction: column;
+    width: 80%;
+  }
+  .pricesCardInfo {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+  }
+  .pricesCardInfo > h3 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 580px) {
+  .pricesBSG {
+    width: 90%;
+  }
+  .pricesBlock_main {
+    flex-direction: column;
+    width: 80%;
+  }
+  .pricesCardInfo {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: 1.3em;
+  }
+  .pricesCardInfo > h3 {
+    font-size: 2.4rem;
+  }
+  .pricesCard1,
+  .pricesCard2 {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .pricesBSG_cards {
+    flex-direction: column;
+  }
+  .pricesBlock_main {
+    width: 100%;
+  }
+  .pricesCardInfo {
+    font-size: 1rem;
+  }
+  .pricesCardInfo > h3 {
+    font-size: 2rem;
+  }
+  .pricesBronze,
+  .pricesSilver,
+  .pricesGold {
+    padding: 2rem 2rem;
+    font-size: 1rem;
+  }
+}

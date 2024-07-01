@@ -10,6 +10,7 @@ import cs from "../../assets/cybersport.svg";
 import drons from "../../assets/drons.svg";
 import rob from "../../assets/robots.svg";
 import exh from "../../assets/it exh.svg";
+import { useNavigate } from "react-router-dom";
 
 const ToggleButton = ({ id, isActive, onClick }) => {
   return (
@@ -31,6 +32,7 @@ export function Directions() {
   const handleToggle = (id) => {
     setActiveId((prevId) => (prevId === id ? null : id));
   };
+  const navigate = useNavigate();
   return (
     <div className="directions" id="section1">
       <div className="conteiner">
@@ -43,7 +45,9 @@ export function Directions() {
                   <h1>ХАКАТОН</h1>
                 </div>
                 <div className="act-button-one">
-                  <button>Участвовать</button>
+                  <button onClick={() => navigate("/signup")}>
+                    Участвовать
+                  </button>
                 </div>
               </div>
               <div
@@ -70,7 +74,7 @@ export function Directions() {
                 </div>
               </div>
             </div>
-            <div className="dir-info" id="two">
+            <div className="dir-info">
               <div
                 className="info-part"
                 style={{ backgroundImage: `url(${mobi})` }}>
@@ -99,7 +103,9 @@ export function Directions() {
                   <h1 className="">МОБИЛОГРАФИЯ</h1>
                 </div>
                 <div className="act-button-two">
-                  <button>Участвовать</button>
+                  <button onClick={() => navigate("/signup")}>
+                    Участвовать
+                  </button>
                 </div>
               </div>
             </div>
@@ -109,7 +115,9 @@ export function Directions() {
                   <h1>КИБЕР-БЕЗОПАСНОСТЬ</h1>
                 </div>
                 <div className="act-button-one">
-                  <button>Участвовать</button>
+                  <button onClick={() => navigate("/signup")}>
+                    Участвовать
+                  </button>
                 </div>
               </div>
               <div
@@ -134,7 +142,7 @@ export function Directions() {
                 </div>
               </div>
             </div>
-            <div className="dir-info" id="two">
+            <div className="dir-info">
               <div
                 className="info-part"
                 style={{ backgroundImage: `url(${cs})` }}>
@@ -161,7 +169,9 @@ export function Directions() {
                   <h1>КИБЕРСПОРТ</h1>
                 </div>
                 <div className="act-button-two">
-                  <button>Участвовать</button>
+                  <button onClick={() => navigate("/signup")}>
+                    Участвовать
+                  </button>
                 </div>
               </div>
             </div>
@@ -171,7 +181,9 @@ export function Directions() {
                   <h1>ДИЗАЙН И АНИМАЦИИ</h1>
                 </div>
                 <div className="act-button-one">
-                  <button>Участвовать</button>
+                  <button onClick={() => navigate("/signup")}>
+                    Участвовать
+                  </button>
                 </div>
               </div>
               <div
@@ -198,7 +210,7 @@ export function Directions() {
                 </div>
               </div>
             </div>
-            <div className="dir-info" id="two">
+            <div className="dir-info">
               <div
                 className="info-part"
                 style={{ backgroundImage: `url(${exh})` }}>
@@ -226,7 +238,9 @@ export function Directions() {
                   <h1>IT ВЫСТАВКА</h1>
                 </div>
                 <div className="act-button-two">
-                  <button>Участвовать</button>
+                  <button onClick={() => navigate("/signup")}>
+                    Участвовать
+                  </button>
                 </div>
               </div>
             </div>
@@ -236,7 +250,9 @@ export function Directions() {
                   <h1>БИТВА РОБОТОВ</h1>
                 </div>
                 <div className="act-button-one">
-                  <button>Участвовать</button>
+                  <button onClick={() => navigate("/signup")}>
+                    Участвовать
+                  </button>
                 </div>
               </div>
               <div
@@ -261,7 +277,7 @@ export function Directions() {
                 </div>
               </div>
             </div>
-            <div className="dir-info" id="two">
+            <div className="dir-info">
               <div
                 className="info-part"
                 style={{ backgroundImage: `url(${drons})` }}>
@@ -288,7 +304,9 @@ export function Directions() {
                   <h1>ГОНКИ НА ДРОНАХ</h1>
                 </div>
                 <div className="act-button-two">
-                  <button>Участвовать</button>
+                  <button onClick={() => navigate("/signup")}>
+                    Участвовать
+                  </button>
                 </div>
               </div>
             </div>
