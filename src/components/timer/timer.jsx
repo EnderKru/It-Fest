@@ -28,13 +28,11 @@ export default function Timer() {
   setInterval(countdown, 1000);
   return (
     <main class="container-n">
-      <div class="content-nt">
-        ДО НАЧАЛА СОРЕВНОВАНИЯ
-      </div>
+      <div class="content-nt">ДО НАЧАЛА ФЕСТИВАЛЯ</div>
       <div className="subcontent">
-      16-17 АВГУСТА
-      <br/>
-КУЛЬТУРНЫЙ ЦЕНТР “РУХ ОРДО”
+        16-17 АВГУСТА
+        <br />
+        КУЛЬТУРНЫЙ ЦЕНТР “РУХ ОРДО”
       </div>
       <section class="timer-n">
         {/* <div class="countdown-n"> */}

@@ -1,288 +1,280 @@
 .container-n {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 80vh; Центрирование по вертикали */
-    flex-direction: column; /* Направление flex-контейнера на столбец */
-    z-index: 2;
-    position: relative;
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 7rem;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 80vh; Центрирование по вертикали */
+  flex-direction: column; /* Направление flex-контейнера на столбец */
+  z-index: 2;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 7rem;
+}
 
+.subcontent {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #46fbda;
+  font-weight: 800;
+  margin-bottom: 1.6rem;
+}
+
+.content-nt {
+  /* width: 90%; */
+  /* height: 43px; */
+  display: flex;
+  justify-content: center;
+  margin-top: 5vmax;
+  align-items: center;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 4vmax;
+  font-weight: 700;
+  /* line-height: 42.24px; */
+  text-align: left;
+  margin-bottom: 2rem; /* Отступ вниз */
+  color: white;
+}
+
+.timer-n {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: white;
+  border-top: 5px solid #e57d1e; /* Граница сверху */
+  border-bottom: 5px solid #e57d1e;
+  width: 80%;
+}
+.timersEdin {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  width: 25%;
+}
+.timersEdin > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.doub {
+  font-size: 6rem;
+  font-weight: 800;
+  margin-left: 20px;
+  color: #46fbda;
+}
+.sapn-tt {
+  font-size: 40px;
+  font-weight: 800;
+  margin-left: -20px;
+  margin-top: -10px;
+  color: #46fbda;
+}
+#days,
+#hours {
+  font-size: 6rem;
+  font-weight: 900;
+}
+#minutes,
+#seconds {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.purple-n {
+  color: #b4002d;
+  margin-left: 10px;
+}
+
+.countdown-n {
+  width: 100vmax; /* Ширина */
+  height: auto; /* Высота */
+  font-size: 5rem; /* Размер шрифта */
+  display: flex;
+  justify-content: space-between; /* Распределение по горизонтали */
+  align-items: center; /* Выравнивание по вертикали */
+}
+
+.countdown-n div {
+  width: 100vmax; /* Ширина */
+  text-align: center; /* Выравнивание текста по центру */
+}
+
+.time-unit-n {
+  font-size: 73px; /* Размер шрифта для единиц времени */
+}
+
+@media (max-width: 950px) {
+  .main-containerT {
+    transform: scale(0.8);
+    background-size: cover;
+  }
   .subcontent {
-    text-align: center;
-    font-size: 1.5rem;
-    color: #3A77C3;
-    font-weight: 800;
-    margin-bottom: 1.6rem;
+    font-size: 1rem;
   }
-  
-  .content-nt {
-    /* width: 90%; */
-    /* height: 43px; */
-    display: flex;
-    justify-content: center;
-    margin-top: 5vmax;
-    align-items: center;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 4vmax;
-    font-weight: 700;
-    /* line-height: 42.24px; */
-    text-align: left;
-    margin-bottom: 2rem; /* Отступ вниз */
-    color: white;
-  }
-  
+}
+
+@media (max-width: 768px) {
   .timer-n {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    color: white;
-    border-top: 5px solid #E57D1E; /* Граница сверху */
-    border-bottom: 5px solid #E57D1E;
-    width: 80%;
+    width: 90%;
   }
-  .timersEdin {
-    display: flex;
+  .main-containerT {
+    transform: scale(0.6);
+    background-size: cover;
+    background-position: center;
+  }
+  .main-content {
     flex-direction: column;
-    margin: 1rem 0;
-    width: 25%;
   }
-  .timersEdin > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  .content-nt {
+    flex-direction: column;
+    /* font-size: 3vmax; */
   }
-  
-  .doub {
-    font-size: 6rem;
-    font-weight: 800;
-    margin-left: 20px;
-    color: #3A77C3;
-  }
-  .sapn-tt {
-    font-size: 40px;
-    font-weight: 800;
-    margin-left: -20px;
-    margin-top: -10px;
-    color: #E57D1E;
-  }
+  .doub,
   #days,
-  #hours {
-    font-size: 6rem;
-    font-weight: 900;
-  }
+  #hours,
   #minutes,
   #seconds {
-    font-size: 6rem;
-    font-weight: 900;
+    font-size: 3rem;
   }
-  
-  .purple-n {
-    color: #b4002d;
+  .sapn-tt {
+    font-size: 3vmax;
+  }
+}
+@media (max-width: 460px) {
+  .doub,
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 2rem;
+  }
+  .sapn-tt {
+    font-size: 2vmax;
+  }
+  .main-containerT {
+    transform: scale(0.4);
+  }
+  .content-nt {
+    font-size: 4vmax;
+  }
+}
+
+@media (max-width: 350px) {
+  .main-containerT {
+    transform: scale(0.3);
+  }
+}
+
+@media (max-width: 990px) {
+  .content-nt {
+    font-size: 2.5rem;
+  }
+  .sapn-tt {
+    font-size: 2rem;
+  }
+  .doub,
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 720px) {
+  .content-nt {
+    text-align: center;
+  }
+  .sapn-tt {
+    font-size: 1.8rem;
+  }
+  .doub,
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 600px) {
+  .content-nt {
+    text-align: center;
+  }
+  .sapn-tt {
+    font-size: 1.6rem;
+  }
+  .content-nt {
+    font-size: 1.8rem;
+  }
+  .doub,
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 3.3rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .sapn-tt {
+    font-size: 1.2rem;
+  }
+  .subcontent {
+    font-size: 0.7rem;
+  }
+  .content-nt {
+    font-size: 1.8rem;
+  }
+  .subcontent {
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  .doub,
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .sapn-tt {
+    font-size: 1rem;
     margin-left: 10px;
   }
-  
-  .countdown-n {
-    width: 100vmax; /* Ширина */
-    height: auto; /* Высота */
-    font-size: 5rem; /* Размер шрифта */
-    display: flex;
-    justify-content: space-between; /* Распределение по горизонтали */
-    align-items: center; /* Выравнивание по вертикали */
+  .content-nt {
+    font-size: 1.8rem;
   }
-  
-  .countdown-n div {
-    width: 100vmax; /* Ширина */
-    text-align: center; /* Выравнивание текста по центру */
+  .doub,
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 2.6rem;
+    margin-left: 10px;
   }
-  
-  .time-unit-n {
-    font-size: 73px; /* Размер шрифта для единиц времени */
-  }
-  
-  @media (max-width: 950px) {
-    .main-containerT {
-      transform: scale(0.8);
-      background-size: cover;
-    }
-    .subcontent {
-        font-size: 1rem;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .timer-n {
-      width: 90%;
-    }
-    .main-containerT {
-      transform: scale(0.6);
-      background-size: cover;
-      background-position: center;
-    }
-    .main-content {
-      flex-direction: column;
-    }
-    .content-nt {
-      flex-direction: column;
-      /* font-size: 3vmax; */
-    }
-    .doub,
-    #days,
-    #hours,
-    #minutes,
-    #seconds {
-      font-size: 3rem;
-    }
-    .sapn-tt {
-      font-size: 3vmax;
-    }
-  }
-  @media (max-width: 460px) {
-    .doub,
-    #days,
-    #hours,
-    #minutes,
-    #seconds {
-      font-size: 2rem;
-    }
-    .sapn-tt {
-      font-size: 2vmax;
-    }
-    .main-containerT {
-      transform: scale(0.4);
-    }
-    .content-nt {
-      font-size: 4vmax;
-    }
-  }
-  
-  @media (max-width: 350px) {
-    .main-containerT {
-      transform: scale(0.3);
-    }
-  }
+}
 
-  @media (max-width: 990px) {
-    .content-nt {
-        font-size: 2.5rem;
-    }
-    .sapn-tt {
-        font-size: 2rem;
-    }
-    .doub,
-    #days,
-    #hours,
-    #minutes,
-    #seconds {
-      font-size: 5rem;
-    }
-
+@media (max-width: 390px) {
+  .sapn-tt {
+    font-size: 1rem;
   }
-  @media (max-width: 720px) {
-    .content-nt {
-text-align: center;    }
-    .sapn-tt {
-        font-size: 1.8rem;
-    }
-    .doub,
-    #days,
-    #hours,
-    #minutes,
-    #seconds {
-      font-size: 4rem;
-    }
-
+  .content-nt {
+    font-size: 1.8rem;
   }
-  @media (max-width: 600px) {
-    .content-nt {
-text-align: center;    }
-    .sapn-tt {
-        font-size: 1.6rem;
-    }
-    .content-nt {
-        font-size: 1.8rem;
-    }
-    .doub,
-    #days,
-    #hours,
-    #minutes,
-    #seconds {
-      font-size: 3.3rem;
-    }
-
+  .doub,
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 2.4rem;
+    margin-left: 10px;
   }
-
-  @media (max-width: 520px) {
- 
-    .sapn-tt {
-        font-size: 1.2rem;
-    }
-    .subcontent {
-        font-size: 0.7rem;
-    }
-    .content-nt {
-        font-size: 1.8rem;
-    }
-    .subcontent {
-margin-top: -10px;
-margin-bottom: 10px;
-    }
-    .doub,
-    #days,
-    #hours,
-    #minutes,
-    #seconds {
-      font-size: 3rem;
-    }
-
+  .sapn-tt {
+    margin-left: 0.1rem;
   }
-
-  
-  @media (max-width: 470px) {
- 
-    .sapn-tt {
-        font-size: 1rem;
-        margin-left: 10px;
-    }
-    .content-nt {
-        font-size: 1.8rem;
-    }
-    .doub,
-    #days,
-    #hours,
-    #minutes,
-    #seconds {
-      font-size: 2.6rem;
-      margin-left: 10px;
-    }
-
-  }
-
-  @media (max-width: 390px) {
- 
-    .sapn-tt {
-        font-size: 1rem;
-    }
-    .content-nt {
-        font-size: 1.8rem;
-    }
-    .doub,
-    #days,
-    #hours,
-    #minutes,
-    #seconds {
-      font-size: 2.4rem;
-      margin-left: 10px;
-    }
-    .sapn-tt {
-        margin-left: 0.1rem;
-    }
-
-  }
+}
