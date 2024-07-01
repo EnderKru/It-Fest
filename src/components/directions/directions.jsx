@@ -70,7 +70,7 @@ export function Directions() {
                 </div>
               </div>
             </div>
-            <div className="dir-info">
+            <div className="dir-info" id="two">
               <div
                 className="info-part"
                 style={{ backgroundImage: `url(${mobi})` }}>
@@ -134,7 +134,7 @@ export function Directions() {
                 </div>
               </div>
             </div>
-            <div className="dir-info">
+            <div className="dir-info" id="two">
               <div
                 className="info-part"
                 style={{ backgroundImage: `url(${cs})` }}>
@@ -198,7 +198,7 @@ export function Directions() {
                 </div>
               </div>
             </div>
-            <div className="dir-info">
+            <div className="dir-info" id="two">
               <div
                 className="info-part"
                 style={{ backgroundImage: `url(${exh})` }}>
@@ -261,7 +261,7 @@ export function Directions() {
                 </div>
               </div>
             </div>
-            <div className="dir-info">
+            <div className="dir-info" id="two">
               <div
                 className="info-part"
                 style={{ backgroundImage: `url(${drons})` }}>

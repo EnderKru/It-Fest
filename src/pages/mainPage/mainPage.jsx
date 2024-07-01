@@ -11,6 +11,10 @@ import Subbaner from "../../components/subbanner/subbaner";
 import Timer from "../../components/timer/timer";
 import Sponsors from "../../components/sponsors/sponsors";
 import { Directions } from "../../components/directions/directions";
+import Bonus from "../../components/bonus/bonus";
+import { Directions } from "../../components/directions/directions";
+import { Footer } from "../../components/footer/footer";
+import Village from "../../components/village/village";
 
 export function MainPage() {
   return (
